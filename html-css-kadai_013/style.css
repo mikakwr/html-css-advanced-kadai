@@ -129,30 +129,23 @@ SP用のスタイル
     }
 
     /*ナビゲーションのリンクの装飾設定*/
-    #nav-sp  nav ul a{
+   a {
         display: block;
         text-decoration: none;
     }
 
-    #nav-sp nav ul a:link , 
-    #nav-sp nav ul a:visited,
-    #nav-sp nav ul a :active
-     {
+    a:link ,a:visited,a:active {
         color: #ffffff;
     }
 
 
-    #nav-sp nav ul a :hover {
+    a:hover {
         color: #ffffff;
         text-decoration: underline;
         text-decoration-color: #ffffff;
     }
 
-    
-
-    
-
-    #nav-sp nav ul .menu {
+    .menu {
         text-decoration: none;
         display: block;
         margin: 0 20px 0 20px;
