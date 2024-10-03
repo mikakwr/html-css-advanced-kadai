@@ -10,6 +10,12 @@
   <body>
     <!-- ヘッダー -->
     <header>
+    
+      <!-- SP用メニューボタン-->
+      <button id="menu-sp" onclick="document.getElementById('nav-sp').style.display = 'block'">
+      <img src="images/button-menu.png" alt="ナビゲーションを開く">
+      </button>
+
       <!-- ロゴ -->
       <a href="index.html" id="logo"><img src="images/logo.png" alt="トップページに戻る"/></a>
 
@@ -20,12 +26,7 @@
         <a href="index.html#contact">CONTACT</a>
       </nav>
 
-    <!-- SP用メニューボタン-->
-      <button id="menu-sp" onclick="document.getElementById('nav-sp').style.display = 'block'">
-        <img src="images/button-menu.png" alt="ナビゲーションを開く">
-      </button>
-    
-    <!-- SP用ナビゲーション-->
+      <!-- SP用ナビゲーション-->
       <div id="nav-sp">
         <button id="close" onclick="document.getElementById('nav-sp').style.display = 'none'">
          <img src="images/button-close.png" alt="ナビゲーションを閉じる">
@@ -45,7 +46,7 @@
 
     <main>
       <article>
-        <!-- メインビジュアル -->
+   <!-- メインビジュアル -->
         <section id="main-visual">
           <div id="main-message">
             <h1>Organic Cafe</h1>
@@ -55,5 +56,6 @@
         </section>
       </article>
     </main>
+
   </body>
 </html>

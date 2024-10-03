@@ -88,9 +88,10 @@ SP用のスタイル
     #menu-sp {
         display: block;
         float: right;
-        padding: 0;
+        padding: 0px;
         background-color: transparent;
         border: none;
+        
     }
      
     /*SP用ナビゲーション表示切り替え*/
