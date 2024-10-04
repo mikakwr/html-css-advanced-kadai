@@ -135,7 +135,7 @@ SP用のスタイル
    
     #nav-sp>#logo-sp{
       display: block;
-    };
+    }
 
     .menu:link {
         color: #ffffff;
