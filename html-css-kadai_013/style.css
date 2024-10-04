@@ -133,23 +133,23 @@ SP用のスタイル
 
     /*ナビゲーションのリンクの装飾設定*/
    
-    #nav-sp>a{
+    #nav-sp>#logo-sp{
       display: block;
     };
 
-    a:link {
+    .menu:link {
         color: #ffffff;
     }
     
-    a:visited{
+    .menu:visited{
       color:#ffffff;
     }
 
-    a:active{
+    .menu:active{
       color: #ffffff;
     }
        
-    a:hover {
+    .menu:hover {
         color: #ffffff;
         text-decoration: underline;
         text-decoration-color: #ffffff;
