@@ -72,11 +72,11 @@ SP用のスタイル
 ================*/
 
 @media screen and (max-width: 767px) {
-    
     /*横幅設定*/
     body {
       min-width: 375px;
-      margin:0
+      margin:0;
+      position: relative;
     }
 
     /*PC用ナビゲーション非表示*/
@@ -107,21 +107,23 @@ SP用のスタイル
         z-index: 100;
     }
 
-    #nav-sp nav ul {
+    #nav-sp > ul {
         padding: 0;
     }
 
-    #nav-sp nav li {
+    #nav-sp>li {
         list-style: none;
     }
 
     /* ×ボタン*/
+
     #close {
         position: absolute;
         top: 20px;
         right: 20px;
         background-color: transparent;
         border: none;
+        
     }
 
     /*ナビゲーションメニュー用ロゴ*/
@@ -130,23 +132,30 @@ SP用のスタイル
     }
 
     /*ナビゲーションのリンクの装飾設定*/
-   a {
-        display: block;
-        text-decoration: none;
-    }
+   
+    #nav-sp>a{
+      display: block;
+    };
 
-    a:link ,a:visited,a:active {
+    a:link {
         color: #ffffff;
     }
+    
+    a:visited{
+      color:#ffffff;
+    }
 
-
+    a:active{
+      color: #ffffff;
+    }
+       
     a:hover {
         color: #ffffff;
         text-decoration: underline;
         text-decoration-color: #ffffff;
     }
-
-    .menu {
+    
+     .menu {
         text-decoration: none;
         display: block;
         margin: 0 20px 0 20px;
@@ -157,4 +166,4 @@ SP用のスタイル
         background-position: right top;
     }
 
-}
+  }
