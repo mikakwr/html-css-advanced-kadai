@@ -76,7 +76,6 @@ SP用のスタイル
     body {
       min-width: 375px;
       margin:0;
-      position: relative;
     }
 
     /*PC用ナビゲーション非表示*/
@@ -88,9 +87,7 @@ SP用のスタイル
     #menu-sp {
         display: block;
         float: right;
-        padding: 0px;
-        background-color: transparent;
-        border: none;
+        padding: 0;
         
     }
      
@@ -121,8 +118,6 @@ SP用のスタイル
         position: absolute;
         top: 20px;
         right: 20px;
-        background-color: transparent;
-        border: none;
         
     }
 
@@ -133,29 +128,29 @@ SP用のスタイル
 
     /*ナビゲーションのリンクの装飾設定*/
    
-    #nav-sp>#logo-sp{
+    #nav-sp > #logo-sp{
       display: block;
     }
 
-    .menu:link {
+    #nav-sp a:link {
         color: #ffffff;
     }
     
-    .menu:visited{
+    #nav-sp a:visited{
       color:#ffffff;
     }
 
-    .menu:active{
+    #nav-sp a:active{
       color: #ffffff;
     }
        
-    .menu:hover {
+    #nav-sp a:hover {
         color: #ffffff;
         text-decoration: underline;
         text-decoration-color: #ffffff;
     }
     
-     .menu {
+    #nav-sp .menu {
         text-decoration: none;
         display: block;
         margin: 0 20px 0 20px;
